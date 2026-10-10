@@ -1,12 +1,15 @@
-# 141 Eaglercraft mods (EaglerForge)
+# EaglerChest
 
-141 original `.js` mods in `Mods/` (3.18 MB) from 57 GitHub repositories.
-Mod APIs: ModAPI 125, PluginAPI 10, DOM/game script 6.
+**Website: <https://eaglerchest.pages.dev/>**
+
+141 original Eaglercraft (EaglerForge) mods in `.js` form, in `Mods/` (3.18 MB), collected from
+57 GitHub repositories. Mod APIs: ModAPI 125, PluginAPI 10, DOM/game script 6.
 
 **These are the authors' own files, taken directly from their repositories.** Every one was
 re-downloaded from its source URL and compared by sha256 - all 141 are identical byte for byte.
 Nothing was edited, minified, merged, renamed inside, re-licensed or rewritten. The copyright of
-every mod stays entirely with its author.
+every mod stays entirely with its author, and every mod links back to the repository it came from
+in `SOURCES.md` and `MODS.csv`.
 
 Load a mod with the EaglerForge Injector
 (<https://eaglerforge.github.io/EaglerForgeInjector/>): open an EaglercraftX 1.8 client, then
@@ -19,8 +22,8 @@ use `PluginAPI` (EaglerForge-old / Eagler Reborn) instead of `ModAPI`.
 |---|---|
 | `Mods/` | the 141 mod `.js` files - nothing else inside |
 | `licenses/` | 9 licence texts, verbatim copies of what the owners published |
-| `SOURCES.md` | every mod: author, version, size, source repository, path in repo, sha256, licence |
-| `MODS.csv` | the same as a table, plus a direct download link per mod |
+| `SOURCES.md` | every mod: author, version, size, **original repository**, path in repo, sha256, licence |
+| `MODS.csv` | the same as a table, plus a **direct link to the original file** per mod |
 | `mods_root.json` | the same as JSON |
 | `pipeline/` | the scripts that collected the mods, each documented in `pipeline/README.md` |
 
@@ -46,8 +49,8 @@ immediately on request.
 
 ## Licence
 
-**This repository and website have no licence of their own.** There is no MIT, no GPL, no Apache,
-nothing. We claim no rights over this collection and grant none.
+**EaglerChest - this repository and website - has no licence of its own.** There is no MIT, no GPL,
+no Apache, nothing. We claim no rights over this collection and grant none.
 
 Whether a mod is licensed - and under what terms - belongs entirely to **the owner of that mod**.
 **49 mods** come with a licence, reproduced verbatim in `licenses/`. **92 mods** come from
